@@ -11,7 +11,7 @@ This project investigates and compares the performance of two distinct approache
 - [Dataset](#dataset)
 - [Models](#models)
 - [Results](#results)
-- [Demo](#demo)
+- [Demo](#demo:-results-from-self--recorded-audio)
 - [Conclusions and Future Work](#conclusions-and-future-work)
 - [Contributing](#contributing)
   
