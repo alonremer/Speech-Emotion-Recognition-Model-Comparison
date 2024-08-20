@@ -14,7 +14,9 @@ This project investigates and compares the performance of two distinct approache
   
 ## Project Overview
 
-Speech Emotion Recognition (SER) is a complex task focused on identifying emotions from speech signals. This project explores two different methodologies to tackle this challenge:
+Speech Emotion Recognition (SER) is a complex task focused on identifying and classifying emotional states from spoken language by analyzing vocal features such as tone, pitch, volume, and speech patterns. The goal of SER is to understand and interpret emotions expressed through speech, which has numerous potential applications across various fields, such as mental health and customer service.
+
+This project explores two different methodologies to tackle the challenge of SER:
 
 - **Wav2Vec2**: A transformer-based model pre-trained on vast amounts of speech data, fine-tuned specifically for emotion recognition tasks.
 - **ResNet18**: A convolutional neural network (CNN) traditionally used for image classification, adapted in this project to work with audio data by converting it into spectrograms.
