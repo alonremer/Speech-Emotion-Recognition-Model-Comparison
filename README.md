@@ -64,7 +64,14 @@ Moreover, the short duration of the current audio clips (approximately 2 seconds
 
 **Future Work:**
 
-Exploring more advanced models, such as Wav2Vec2-BERT, could offer better performance in emotion recognition tasks. Incorporating multiple datasets that feature longer audio clips and potentially utilizing the spoken text could improve prediction accuracy. Additionally, integrating video data, if available, could provide additional context through facial expressions, enhancing the model’s ability to make more confident decisions.
+- **Advanced Models**: Investigate more sophisticated models like Wav2Vec2-BERT, which could potentially yield better performance in emotion recognition tasks.
+- **Multimodal Fusion:** Investigate integrating audio with spoken text and video data, if available. This could provide additional context through facial expressions, thereby improving the model’s ability to make more accurate and confident decisions.
+
+
+
+
+
+
 
 ## Contributing
 
