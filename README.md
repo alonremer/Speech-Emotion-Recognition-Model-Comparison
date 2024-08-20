@@ -9,7 +9,7 @@ This project investigates and compares the performance of two distinct approache
 - [Dataset](#dataset)
 - [Models](#models)
 - [Results](#results)
-- [Future Work](#future-work)
+- [Conclusions and Future Work](#conclusions-and-future-work)
 - [Contributing](#contributing)
   
 ## Project Overview
@@ -56,13 +56,15 @@ The evaluation reveals that models utilizing embeddings, such as Wav2Vec2, are g
 </p>
 
 
-## Future Work
+## Conclusions and Future Work
 
-Future work could explore the following enhancements:
+Training on spectrograms required a uniform length for the audio data, which involved either padding or trimming. This preprocessing step could potentially hinder the model’s ability to accurately interpret the data. Consequently, utilizing models based on embeddings, like Wav2Vec2, is found to be a more suitable approach for processing audio data compared to converting it into spectrograms and treating the data as images.
 
-- **Advanced Models**: Investigate more sophisticated models like Wav2Vec2-BERT, which could potentially yield better performance in emotion recognition tasks.
-- **Multi-Dataset Training**: Incorporate additional datasets that feature longer audio clips and utilize contextual spoken text, which might improve the model’s prediction accuracy.
-- **Multimodal Fusion**: Integrate video data, allowing the model to utilize facial expressions alongside speech to make more confident emotion predictions.
+Moreover, the short duration of the current audio clips (approximately 2 seconds) limits the available information for emotion recognition. Longer audio clips could provide more context and enhance the model's performance. The current sentences also lack contextual relevance to the emotions being expressed, further constraining the models' effectiveness.
+
+**Future Work:**
+
+Exploring more advanced models, such as Wav2Vec2-BERT, could offer better performance in emotion recognition tasks. Incorporating multiple datasets that feature longer audio clips and potentially utilizing the spoken text could improve prediction accuracy. Additionally, integrating video data, if available, could provide additional context through facial expressions, enhancing the model’s ability to make more confident decisions.
 
 ## Contributing
 
