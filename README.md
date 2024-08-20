@@ -128,6 +128,8 @@ Training on spectrograms required a uniform length for the audio data, which inv
 
 Moreover, the short duration of the current audio clips (approximately 2 seconds) limits the available information for emotion recognition. Longer audio clips could provide more context and enhance the model's performance. The current sentences also lack contextual relevance to the emotions being expressed, further constraining the models' effectiveness.
 
+Despite our efforts to clearly express the emotion in the demo, achieving accurate classification remains challenging. For example, the model incorrectly classified what we defined as neutral audio as fear. While the model showed 75% accuracy in these demo results as well, it is notable that the model was highly confident in its predictions. This high confidence might not always be desirable in emotion classification tasks, as there could be multiple emotions or very subtle differences that the model might not capture effectively.
+
 **Future Work:**
 
 - **Advanced Models**: Investigate more sophisticated models like Wav2Vec2-BERT, which could potentially yield better performance in emotion recognition tasks.
