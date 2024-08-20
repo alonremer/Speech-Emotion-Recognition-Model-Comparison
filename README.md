@@ -1,6 +1,6 @@
 # Speech Emotion Recognition - Model Comparison
 
-![image](https://github.com/user-attachments/assets/5c34b467-437e-4947-a9d5-b9b24a902d18)
+<img src="https://github.com/user-attachments/assets/5c34b467-437e-4947-a9d5-b9b24a902d18" alt="SER Comparison" width="600"/>
 
 This project investigates and compares the performance of two distinct approaches to speech emotion recognition using the **CREMA-D** dataset: the **Wav2Vec2** model, which leverages embeddings, and a spectrogram-based approach using **ResNet18**. The primary objective is to evaluate the effectiveness of each model in accurately classifying emotions from audio recordings.
 
