@@ -63,10 +63,7 @@ The evaluation reveals that models utilizing embeddings, such as Wav2Vec2, are g
 
 **Predicted Emotion: Angry**
 
-<audio controls>
-  <source src="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-angry.wav" type="audio/wav">
-  <a href="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-angry.wav">Download audio</a>
-</audio>
+<a href="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-angry.wav">Download audio</a>
 
 **Probabilities:**
 
