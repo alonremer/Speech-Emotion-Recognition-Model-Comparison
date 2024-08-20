@@ -11,8 +11,7 @@ This project investigates and compares the performance of two distinct approache
 - [Results](#results)
 - [Future Work](#future-work)
 - [Contributing](#contributing)
-- [License](#license)
-
+- 
 ## Project Overview
 
 Speech Emotion Recognition (SER) is a complex task focused on identifying emotions from speech signals. This project explores two different methodologies to tackle this challenge:
@@ -62,7 +61,3 @@ Future work could explore the following enhancements:
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request with your suggestions or improvements.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
