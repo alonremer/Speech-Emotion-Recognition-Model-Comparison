@@ -11,7 +11,7 @@ This project investigates and compares the performance of two distinct approache
 - [Dataset](#dataset)
 - [Models](#models)
 - [Results](#results)
-- [Demo](#demo:-results-from-self--recorded-audio)
+- [Demo](#demo)
 - [Conclusions and Future Work](#conclusions-and-future-work)
 - [Contributing](#contributing)
   
@@ -58,7 +58,9 @@ The evaluation reveals that models utilizing embeddings, such as Wav2Vec2, are g
     <img src="https://github.com/user-attachments/assets/2553f08b-3d2f-42a5-b38a-ebaefa297800" width="315" />
 </p>
 
-## Demo: Results from Self-Recorded Audio
+## Demo
+
+**Results from Self-Recorded Audio**
 
 ### Example 1  - Angry
 
@@ -130,11 +132,6 @@ Moreover, the short duration of the current audio clips (approximately 2 seconds
 
 - **Advanced Models**: Investigate more sophisticated models like Wav2Vec2-BERT, which could potentially yield better performance in emotion recognition tasks.
 - **Multimodal Fusion:** Investigate integrating audio with spoken text and video data, if available. This could provide additional context through facial expressions, thereby improving the model’s ability to make more accurate and confident decisions.
-
-
-
-
-
 
 
 ## Contributing
