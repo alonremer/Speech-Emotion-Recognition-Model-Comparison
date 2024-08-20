@@ -65,7 +65,7 @@ The evaluation reveals that models utilizing embeddings, such as Wav2Vec2, are g
 
 <audio controls>
   <source src="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-angry.wav" type="audio/wav">
-  Your browser does not support the audio element.
+  Your browser does not support the audio element. <a href="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-angry.wav">Download audio</a>
 </audio>
 
 **Probabilities:**
@@ -85,8 +85,9 @@ The evaluation reveals that models utilizing embeddings, such as Wav2Vec2, are g
 
 <audio controls>
   <source src="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-happy%20(1).wav" type="audio/wav">
-  Your browser does not support the audio element.
+  Your browser does not support the audio element. <a href="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-happy%20(1).wav">Download audio</a>
 </audio>
+
 
 **Probabilities:**
 
@@ -105,7 +106,7 @@ The evaluation reveals that models utilizing embeddings, such as Wav2Vec2, are g
 
 <audio controls>
   <source src="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-happy%20(2).wav" type="audio/wav">
-  Your browser does not support the audio element.
+  Your browser does not support the audio element. <a href="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-happy%20(2).wav">Download audio</a>
 </audio>
 
 **Probabilities:**
@@ -125,7 +126,7 @@ The evaluation reveals that models utilizing embeddings, such as Wav2Vec2, are g
 
 <audio controls>
   <source src="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-NEU.wav" type="audio/wav">
-  Your browser does not support the audio element.
+  Your browser does not support the audio element. <a href="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-NEU.wav">Download audio</a>
 </audio>
 
 **Probabilities:**
