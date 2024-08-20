@@ -39,11 +39,11 @@ ResNet18 is a deep convolutional neural network typically used for image classif
 
 We conclude that utilizing models based on embeddings (Wav2Vec) is a more suitable approach for processing audio data, as opposed to converting it into spectrograms and treating the data as images.
 
-# Wav2vec.2 -
+#### Wav2vec.2 -
 
 ![image](https://github.com/user-attachments/assets/7691216e-6c1c-4269-acc9-4af4801af1a7)
 
-# ResNet18 -
+#### ResNet18 -
 
 
 ### Feature Work
