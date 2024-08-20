@@ -48,7 +48,9 @@ The evaluation reveals that models utilizing embeddings, such as Wav2Vec2, are g
 
 ### ResNet18 Performance
 
-*Insert ResNet18 performance results here.*
+![image](https://github.com/user-attachments/assets/de4fd2fe-ca87-44f7-95de-925b976cca7b)
+![image](https://github.com/user-attachments/assets/2553f08b-3d2f-42a5-b38a-ebaefa297800)
+
 
 ## Future Work
 
