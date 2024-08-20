@@ -1,5 +1,6 @@
-# Speech Emotion Recognition - Comparison
-This project compares the performance of two approaches, speech model using embeddings as **Wav2Vec2** and spectrogram-based approach using model as **ResNet18**, for speech emotion recognition using the CREMA-D dataset. The goal is to evaluate the effectiveness of both models in classifying different emotions from audio recordings.
+# Speech Emotion Recognition - Model Comparison
+
+This project investigates and compares the performance of two distinct approaches to speech emotion recognition using the **CREMA-D** dataset: the **Wav2Vec2** model, which leverages embeddings, and a spectrogram-based approach using **ResNet18**. The primary objective is to evaluate the effectiveness of each model in accurately classifying emotions from audio recordings.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -12,45 +13,54 @@ This project compares the performance of two approaches, speech model using embe
 
 ## Project Overview
 
-Speech emotion recognition (SER) is a challenging task that aims to classify emotions from speech signals. This project explores and compares two different approaches:
-- **Wav2Vec2**: A transformer-based model pre-trained on large speech data and fine-tuned for emotion recognition.
-- **ResNet18**: A convolutional neural network typically used for image classification, adapted here for audio-based emotion recognition.
+Speech Emotion Recognition (SER) is a complex task focused on identifying emotions from speech signals. This project explores two different methodologies to tackle this challenge:
 
-The project uses the CREMA-D dataset, which contains audio recordings of actors expressing various emotions.
+- **Wav2Vec2**: A transformer-based model pre-trained on vast amounts of speech data, fine-tuned specifically for emotion recognition tasks.
+- **ResNet18**: A convolutional neural network (CNN) traditionally used for image classification, adapted in this project to work with audio data by converting it into spectrograms.
+
+The comparison aims to determine which approach is more effective for the classification of emotions from the provided audio samples.
 
 ## Dataset
 
-The **CREMA-D** (Crowd-sourced Emotional Multimodal Actors Dataset) contains audio and visual recordings of actors reading scripts with different emotional expressions. For this project, only the audio data is used.
+The **CREMA-D** (Crowd-sourced Emotional Multimodal Actors Dataset) is a comprehensive dataset that includes both audio and visual recordings of actors reading various scripts with a range of emotional expressions. This project utilizes only the audio component of the dataset.
 
-- **Classes**: Neutral, Happy, Angry, Sad, Fear, Disgust
-- **Number of Samples**: 7,442 audio clips
+- **Emotion Classes**: Neutral, Happy, Angry, Sad, Fear, Disgust
+- **Total Samples**: 7,442 audio clips
 
-Due to the dataset's size, it is not included in this repository. You can download it from [this link](https://github.com/CheyneyComputerScience/CREMA-D).
+Given the dataset's large size, it is not included in this repository. You can download the dataset from [this link](https://github.com/CheyneyComputerScience/CREMA-D).
 
 ## Models
 
 ### Wav2Vec2
-Wav2Vec2 is a pre-trained transformer model from the Hugging Face library. It is fine-tuned on the CREMA-D dataset for emotion recognition.
+**Wav2Vec2** is a state-of-the-art pre-trained transformer model available through the Hugging Face library. It has been fine-tuned specifically on the CREMA-D dataset for the purpose of emotion recognition.
 
 ### ResNet18
-ResNet18 is a deep convolutional neural network typically used for image classification. Here, we use a modified version for speech emotion recognition by converting audio data into spectrograms.
+**ResNet18** is a deep convolutional neural network (CNN) that is typically employed for image classification tasks. In this project, it has been adapted to recognize emotions from speech by converting the audio data into spectrograms, effectively treating the audio as an image classification problem.
 
 ## Results
 
-We conclude that utilizing models based on embeddings (Wav2Vec) is a more suitable approach for processing audio data, as opposed to converting it into spectrograms and treating the data as images.
+The evaluation reveals that models utilizing embeddings, such as Wav2Vec2, are generally more effective for processing and understanding audio data compared to converting the data into spectrograms and employing image-based models.
 
-### Wav2vec.2 -
+### Wav2Vec2 Performance
 
-![image](https://github.com/user-attachments/assets/7691216e-6c1c-4269-acc9-4af4801af1a7)
+![Wav2Vec2 Results](https://github.com/user-attachments/assets/7691216e-6c1c-4269-acc9-4af4801af1a7)
 
-### ResNet18 -
+### ResNet18 Performance
 
+*Insert ResNet18 performance results here.*
 
-## Feature Work
+## Future Work
 
-There are more advanced models like Wav2Vec2, such as Wav2Vec2-BERT that might give better performance.
-It would be beneficial to incorporate multiple datasets that include longer audio clips and potentially utilize the spoken text to enhance the model's prediction accuracy.
-If a video is also available a model might benefit from the facial expression of the speaker to make a more confident decision.
+Future work could explore the following enhancements:
 
+- **Advanced Models**: Investigate more sophisticated models like Wav2Vec2-BERT, which could potentially yield better performance in emotion recognition tasks.
+- **Multi-Dataset Training**: Incorporate additional datasets that feature longer audio clips and utilize contextual spoken text, which might improve the model’s prediction accuracy.
+- **Multimodal Fusion**: Integrate video data, allowing the model to utilize facial expressions alongside speech to make more confident emotion predictions.
 
+## Contributing
 
+Contributions are welcome! Please open an issue or submit a pull request with your suggestions or improvements.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
