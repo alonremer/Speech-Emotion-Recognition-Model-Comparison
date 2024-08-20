@@ -11,6 +11,7 @@ This project investigates and compares the performance of two distinct approache
 - [Dataset](#dataset)
 - [Models](#models)
 - [Results](#results)
+- [Demo](#demo)
 - [Conclusions and Future Work](#conclusions-and-future-work)
 - [Contributing](#contributing)
   
@@ -61,8 +62,6 @@ The evaluation reveals that models utilizing embeddings, such as Wav2Vec2, are g
 
 ### Example 1  - Angry
 
-**Predicted Emotion: Angry**
-
 <a href="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-angry.wav">Download audio</a>
 
 **Probabilities:**
@@ -78,13 +77,7 @@ The evaluation reveals that models utilizing embeddings, such as Wav2Vec2, are g
 
 ### Example 2 - Happy
 
-**Predicted Emotion: Happy**
-
-<audio controls>
-  <source src="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-happy%20(1).wav" type="audio/wav">
-  Your browser does not support the audio element. <a href="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-happy%20(1).wav">Download audio</a>
-</audio>
-
+<a href="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-happy%20(1).wav">Download audio</a>
 
 **Probabilities:**
 
@@ -99,12 +92,7 @@ The evaluation reveals that models utilizing embeddings, such as Wav2Vec2, are g
 
 ### Example 3 - Happy
 
-**Predicted Emotion: Happy**
-
-<audio controls>
-  <source src="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-happy%20(2).wav" type="audio/wav">
-  Your browser does not support the audio element. <a href="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-happy%20(2).wav">Download audio</a>
-</audio>
+<a href="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-happy%20(2).wav">Download audio</a>
 
 **Probabilities:**
 
@@ -119,12 +107,7 @@ The evaluation reveals that models utilizing embeddings, such as Wav2Vec2, are g
 
 ### Example 4 - Neutral
 
-**Predicted Emotion: Fear**
-
-<audio controls>
-  <source src="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-NEU.wav" type="audio/wav">
-  Your browser does not support the audio element. <a href="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-NEU.wav">Download audio</a>
-</audio>
+<a href="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-NEU.wav">Download audio</a>
 
 **Probabilities:**
 
