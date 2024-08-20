@@ -35,9 +35,10 @@ Wav2Vec2 is a pre-trained transformer model from the Hugging Face library. It is
 ### ResNet18
 ResNet18 is a deep convolutional neural network typically used for image classification. Here, we use a modified version for speech emotion recognition by converting audio data into spectrograms.
 
-## Requirements
+### Feature Work
 
-The project is built with Python 3.8 and requires the following libraries:
+There are more advanced models like Wav2Vec2, such as Wav2Vec2-BERT that might give better performance.
+It would be beneficial to incorporate multiple datasets that include longer audio clips and potentially utilize the spoken text to enhance the model's prediction accuracy. If a video is also available a model might benefit from the facial expression of the speaker to make a more confident decision.
+![image](https://github.com/user-attachments/assets/3edd5de9-1897-4958-8f18-b67f2f4111cb)
 
-```bash
-pip install -r requirements.txt
+
