@@ -57,6 +57,87 @@ The evaluation reveals that models utilizing embeddings, such as Wav2Vec2, are g
     <img src="https://github.com/user-attachments/assets/2553f08b-3d2f-42a5-b38a-ebaefa297800" width="315" />
 </p>
 
+## Demo: Results from Self-Recorded Audio
+
+### Example 1  - Angry
+
+**Predicted Emotion: Angry**
+
+<audio controls>
+  <source src="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-angry.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+**Probabilities:**
+
+- **Neutral**: 0.15%
+- **Happy**: 1.48%
+- **Fear**: 0.62%
+- **Angry**: 97.38%
+- **Disgust**: 0.29%
+- **Sad**: 0.08%
+
+---
+
+### Example 2 - Happy
+
+**Predicted Emotion: Happy**
+
+<audio controls>
+  <source src="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-happy%20(1).wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+**Probabilities:**
+
+- **Neutral**: 0.32%
+- **Happy**: 98.38%
+- **Fear**: 0.65%
+- **Angry**: 0.36%
+- **Disgust**: 0.18%
+- **Sad**: 0.12%
+
+---
+
+### Example 3 - Happy
+
+**Predicted Emotion: Happy**
+
+<audio controls>
+  <source src="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-happy%20(2).wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+**Probabilities:**
+
+- **Neutral**: 0.25%
+- **Happy**: 98.30%
+- **Fear**: 0.73%
+- **Angry**: 0.35%
+- **Disgust**: 0.26%
+- **Sad**: 0.13%
+
+---
+
+### Example 4 - Neutral
+
+**Predicted Emotion: Fear**
+
+<audio controls>
+  <source src="https://github.com/alonremer/Speech-Emotion-Recognition-Model-Comparison/raw/main/Wav2Vec2/DemoAudio/Hadar-NEU.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+**Probabilities:**
+
+- **Neutral**: 0.36%
+- **Happy**: 0.98%
+- **Fear**: 95.12%
+- **Angry**: 0.45%
+- **Disgust**: 0.59%
+- **Sad**: 2.50%
+
+
 
 ## Conclusions and Future Work
 
