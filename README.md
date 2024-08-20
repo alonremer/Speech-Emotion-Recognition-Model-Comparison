@@ -11,7 +11,7 @@ This project investigates and compares the performance of two distinct approache
 - [Results](#results)
 - [Future Work](#future-work)
 - [Contributing](#contributing)
-- 
+  
 ## Project Overview
 
 Speech Emotion Recognition (SER) is a complex task focused on identifying emotions from speech signals. This project explores two different methodologies to tackle this challenge:
